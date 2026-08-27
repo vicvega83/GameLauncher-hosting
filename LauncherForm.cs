@@ -1,9 +1,10 @@
+using System;
 using System.Diagnostics;
 using System.Drawing;
 using System.Drawing.Drawing2D;
-using System.Reflection;
+using System.IO;
 using System.IO.Compression;
-using System.Text.Json;
+using System.Reflection;
 using System.Windows.Forms;
 using GameLauncher.Controls;
 using GameLauncher.Models;
@@ -140,15 +141,22 @@ public partial class LauncherForm : Form
         _fadeInTimer.Tick += FadeInTimer_Tick;
     }
 
-    private async void LauncherForm_Load(object? sender, EventArgs e)
+    private void LauncherForm_Load(object? sender, EventArgs e)
     {
         SetDefaultBackground();
         LoadEmbeddedConfig();
-
-        await Task.Delay(300);
         _fadeInTimer!.Start();
+        InitializeLauncherAsync().Wait();
+    }
 
-        await InitializeLauncherAsync();
+    private async Task InitializeLauncherAsync()
+    {
+        if (_config == null) return;
+
+        _statusLabel!.Text = _config.GameName;
+        await LoadVersionAsync();
+        await LoadPatchNotesAsync();
+        UpdatePlayButton();
     }
 
     private void SetDefaultBackground()
@@ -194,7 +202,7 @@ public partial class LauncherForm : Form
 
         if (!string.IsNullOrEmpty(embeddedConfig))
         {
-            _config = JsonSerializer.Deserialize<LauncherConfig>(embeddedConfig, new JsonSerializerOptions
+            _config = System.Text.Json.JsonSerializer.Deserialize<LauncherConfig>(embeddedConfig, new System.Text.Json.JsonSerializerOptions
             {
                 PropertyNameCaseInsensitive = true
             });
@@ -244,36 +252,21 @@ public partial class LauncherForm : Form
         }
     }
 
-    private async Task InitializeLauncherAsync()
-    {
-        if (_config == null) return;
-
-        _statusLabel!.Text = _config.GameName;
-
-        await LoadVersionAsync();
-        await LoadPatchNotesAsync();
-        UpdatePlayButton();
-    }
-
     private async Task LoadVersionAsync()
     {
-        if (string.IsNullOrEmpty(_config?.VersionUrl))
-        {
-            _versionLabel!.Text = "No version config";
-            return;
-        }
+        if (string.IsNullOrEmpty(_config?.VersionUrl) || _versionLabel == null) return;
 
         _remoteVersion = await _dataService.LoadVersionInfo(_config.VersionUrl);
 
         if (_remoteVersion != null)
         {
             _installedVersion = GetInstalledVersion();
-            _versionLabel!.Text = $"Installed: v{_installedVersion} | Latest: v{_remoteVersion.Version}";
+            _versionLabel.Text = $"Installed: v{_installedVersion} | Latest: v{_remoteVersion.Version}";
             UpdatePlayButton();
         }
         else
         {
-            _versionLabel!.Text = "Failed to check version";
+            _versionLabel.Text = "Failed to check version";
         }
     }
 
@@ -392,7 +385,8 @@ public partial class LauncherForm : Form
 
     private void ExtractUpdate(string zipPath)
     {
-        ZipFile.ExtractToDirectory(zipPath, AppDomain.CurrentDomain.BaseDirectory, true);
+        using ZipArchive archive = ZipFile.OpenRead(zipPath);
+        archive.ExtractToDirectory(AppDomain.CurrentDomain.BaseDirectory, true);
     }
 
     private void LaunchGame()
@@ -405,7 +399,7 @@ public partial class LauncherForm : Form
         {
             try
             {
-                Process.Start(new ProcessStartInfo
+                System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo
                 {
                     FileName = gamePath,
                     UseShellExecute = true

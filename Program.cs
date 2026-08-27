@@ -9,19 +9,22 @@ static class Program
     [STAThread]
     static void Main()
     {
+        string log = "startup.log";
         try
         {
-            File.WriteAllText("startup.log", "Starting...\r\n");
+            File.WriteAllText(log, "Starting...\r\n");
             ApplicationConfiguration.Initialize();
-            File.WriteAllText("startup.log", "Config initialized\r\n");
-            LauncherForm form = new LauncherForm();
-            File.WriteAllText("startup.log", "Form created\r\n");
+            File.AppendAllText(log, "Config initialized\r\n");
+            var form = new LauncherForm();
+            File.AppendAllText(log, "Form created\r\n");
             Application.Run(form);
+            File.AppendAllText(log, "Form closed\r\n");
         }
         catch (Exception ex)
         {
-            File.WriteAllText("startup.log", $"ERROR: {ex}\r\n");
-            MessageBox.Show(ex.ToString());
+            File.AppendAllText(log, $"FATAL: {ex.GetType().Name}: {ex.Message}\r\n");
+            File.AppendAllText(log, ex.ToString() + "\r\n");
+            MessageBox.Show(ex.ToString(), "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
     }
 }

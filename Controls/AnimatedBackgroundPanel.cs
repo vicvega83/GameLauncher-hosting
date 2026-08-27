@@ -7,8 +7,6 @@ namespace GameLauncher.Controls;
 public class AnimatedBackgroundPanel : Panel
 {
     private Image? _backgroundImage;
-    private System.Windows.Forms.Timer? _animateTimer;
-    private int _tick;
     private double _zoomSpeed;
     private double _panSpeed;
     private double _zoomMin;
@@ -33,7 +31,6 @@ public class AnimatedBackgroundPanel : Panel
     protected override void OnPaint(PaintEventArgs pe)
     {
         pe.Graphics.Clear(BackColor);
-        
         if (_backgroundImage != null)
         {
             pe.Graphics.DrawImage(_backgroundImage, 0, 0, Width, Height);
