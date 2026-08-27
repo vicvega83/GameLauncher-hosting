@@ -43,10 +43,12 @@ public partial class LauncherForm : Form
     {
         this.SuspendLayout();
         this.BackColor = Color.Black;
-        this.FormBorderStyle = FormBorderStyle.None;
-        this.MinimumSize = new Size(1024, 600);
-        this.WindowState = FormWindowState.Maximized;
+        this.FormBorderStyle = FormBorderStyle.FixedSingle;
+        this.MinimumSize = new Size(1200, 700);
+        this.MaximumSize = new Size(1920, 1080);
+        this.Size = new Size(1920, 1080);
         this.StartPosition = FormStartPosition.CenterScreen;
+        this.Text = "GameLauncher";
         this.ResumeLayout(false);
     }
 
