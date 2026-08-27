@@ -1,23 +1,23 @@
 [
     {
-        "image_url": "https://vicvega83.github.io/GameLauncher-hosting/images/update1.jpg",
-        "title": "Major Combat Overhaul",
-        "description": "Complete overhaul of combat mechanics, 12 new weapons, redesigned competitive maps, and rebalanced damage system.",
-        "date": "2026-08-20",
-        "version": "2.0.0"
+        "version": "2.0.0",
+        "title": "Registry-Aware Versioning",
+        "description": "Game now writes its version to Windows registry on startup. The launcher reads the registry key for instant version detection without parsing executables. Improved update pipeline reliability.",
+        "date": "2026-08-28",
+        "image_url": "https://vicvega83.github.io/GameLauncher-hosting/images/update1.jpg"
     },
     {
-        "image_url": "https://vicvega83.github.io/GameLauncher-hosting/images/update2.jpg",
-        "title": "New Game Mode: Survival",
-        "description": "Face endless waves of enemies in our new survival mode.",
-        "date": "2026-08-10",
-        "version": "1.5.0"
+        "version": "1.5.0",
+        "title": "New Survival Mode",
+        "description": "Added an endless survival mode with procedurally generated waves. Leaderboards integrated with the online scoring system.",
+        "date": "2026-08-15",
+        "image_url": "https://vicvega83.github.io/GameLauncher-hosting/images/update2.jpg"
     },
     {
-        "image_url": "https://vicvega83.github.io/GameLauncher-hosting/images/update3.jpg",
-        "title": "Quality of Life Improvements",
-        "description": "Improved UI responsiveness, 40% faster load times, 50+ bug fixes.",
-        "date": "2026-07-25",
-        "version": "1.4.2"
+        "version": "1.0.0",
+        "title": "Initial Release",
+        "description": "The game launches with campaign mode, 5 levels, and online multiplayer support. Enjoy the journey!",
+        "date": "2026-08-01",
+        "image_url": "https://vicvega83.github.io/GameLauncher-hosting/images/update3.jpg"
     }
 ]

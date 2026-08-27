@@ -1,6 +1,6 @@
 {
     "version": "2.0.0",
     "download_url": "https://github.com/vicvega83/GameLauncher-hosting/releases/download/v2.0.0/GameUpdate.zip",
-    "filesize": 75817,
-    "changelog": "Combat overhaul, new survival mode, and performance improvements."
+    "filesize": 67132,
+    "changelog": "v2.0.0 — Registry-aware versioning, combat overhaul, and new survival mode."
 }
