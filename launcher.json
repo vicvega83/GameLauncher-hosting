@@ -1,0 +1,12 @@
+{
+    "game_name": "My Game",
+    "game_exe": "Game.exe",
+    "version_url": "https://your-github-user.github.io/launcher-test/version.json",
+    "patchnotes_url": "https://your-github-user.github.io/launcher-test/patchnotes.json",
+    "download_url": "https://github.com/your-github-user/your-repo/releases/download/v1.0.0/GameUpdate.zip",
+    "background_url": "",
+    "zoom_speed": 0.00015,
+    "pan_speed": 0.0001,
+    "zoom_min": 1.0,
+    "zoom_max": 1.3
+}
