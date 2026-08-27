@@ -1,6 +1,6 @@
 {
     "version": "2.0.0",
-    "download_url": "https://github.com/your-github-user/your-repo/releases/download/v2.0.0/GameUpdate.zip",
-    "filesize": 524288000,
-    "changelog": "Complete combat overhaul, new survival mode, 12 new weapons, 3 new maps."
+    "download_url": "https://github.com/vicvega83/GameLauncher-hosting/releases/download/v2.0.0/GameUpdate.zip",
+    "filesize": 75817,
+    "changelog": "Combat overhaul, new survival mode, and performance improvements."
 }
