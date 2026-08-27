@@ -1,0 +1,14 @@
+E:\Projects\GameLauncher\obj\Debug\net8.0-windows\GameLauncher.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\GameLauncher\obj\Debug\net8.0-windows\GameLauncher.AssemblyInfoInputs.cache
+E:\Projects\GameLauncher\obj\Debug\net8.0-windows\GameLauncher.AssemblyInfo.cs
+E:\Projects\GameLauncher\obj\Debug\net8.0-windows\GameLauncher.csproj.CoreCompileInputs.cache
+E:\Projects\GameLauncher\bin\Debug\net8.0-windows\GameLauncher.exe
+E:\Projects\GameLauncher\bin\Debug\net8.0-windows\GameLauncher.deps.json
+E:\Projects\GameLauncher\bin\Debug\net8.0-windows\GameLauncher.runtimeconfig.json
+E:\Projects\GameLauncher\bin\Debug\net8.0-windows\GameLauncher.dll
+E:\Projects\GameLauncher\bin\Debug\net8.0-windows\GameLauncher.pdb
+E:\Projects\GameLauncher\obj\Debug\net8.0-windows\GameLauncher.dll
+E:\Projects\GameLauncher\obj\Debug\net8.0-windows\refint\GameLauncher.dll
+E:\Projects\GameLauncher\obj\Debug\net8.0-windows\GameLauncher.pdb
+E:\Projects\GameLauncher\obj\Debug\net8.0-windows\GameLauncher.genruntimeconfig.cache
+E:\Projects\GameLauncher\obj\Debug\net8.0-windows\ref\GameLauncher.dll
