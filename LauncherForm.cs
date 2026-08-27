@@ -45,11 +45,13 @@ public partial class LauncherForm : Form
         this.SuspendLayout();
         this.BackColor = Color.Black;
         this.FormBorderStyle = FormBorderStyle.FixedSingle;
-        this.MinimumSize = new Size(1200, 700);
-        this.MaximumSize = new Size(1920, 1080);
-        this.Size = new Size(1920, 1080);
+        this.MinimumSize = new Size(1024, 600);
+        this.Size = new Size(1280, 800);
         this.StartPosition = FormStartPosition.CenterScreen;
         this.Text = "GameLauncher";
+        this.Visible = true;
+        this.ShowInTaskbar = true;
+        this.WindowState = FormWindowState.Normal;
         this.ResumeLayout(false);
     }
 
@@ -143,10 +145,11 @@ public partial class LauncherForm : Form
 
     private void LauncherForm_Load(object? sender, EventArgs e)
     {
+        Text = "GameLauncher";
         SetDefaultBackground();
         LoadEmbeddedConfig();
         _fadeInTimer!.Start();
-        InitializeLauncherAsync().Wait();
+        _ = InitializeLauncherAsync();
     }
 
     private async Task InitializeLauncherAsync()
