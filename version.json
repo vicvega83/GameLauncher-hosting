@@ -1,6 +1,6 @@
 {
-  "version": "2.1.6",
-  "download_url": "https://github.com/vicvega83/GameLauncher-hosting/releases/download/v2.1.6/GameUpdate.zip",
-  "filesize": 27202972,
-  "changelog": "Added Vik Starter pause menu: ESC toggles a configurable RESUME/QUIT overlay in game."
+  "version": "2.1.7",
+  "download_url": "https://github.com/vicvega83/GameLauncher-hosting/releases/download/v2.1.7/GameUpdate.zip",
+  "filesize": 27203011,
+  "changelog": "Fixed blank menu labels: UI text now uses an OS font (builtin font resources fail in player builds)."
 }
