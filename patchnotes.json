@@ -1,6 +1,13 @@
 [
   {
     "image_url": "images/update1.jpg",
+    "title": "UI Text Fix",
+    "description": "Pause menu buttons and version sign now render their text using an OS-provided font.",
+    "date": "2026-09-19",
+    "version": "2.1.7"
+  },
+  {
+    "image_url": "images/update1.jpg",
     "title": "Pause Menu",
     "description": "Press ESC in game for a pause menu with RESUME and QUIT. Menu items configurable on the component.",
     "date": "2026-09-19",
