@@ -1,6 +1,6 @@
 {
-  "version": "2.1.2",
-  "download_url": "https://github.com/vicvega83/GameLauncher-hosting/releases/download/v2.1.2/GameUpdate.zip",
-  "filesize": 27106280,
-  "changelog": "Prerelease channel test of the update pipeline (v2.1.2-pre)."
+  "version": "2.1.3",
+  "download_url": "https://github.com/vicvega83/GameLauncher-hosting/releases/download/v2.1.3/GameUpdate.zip",
+  "filesize": 27099015,
+  "changelog": "Fixed magenta materials: scene now uses the prototype materials, broken shader refs repaired."
 }
