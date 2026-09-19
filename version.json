@@ -1,6 +1,6 @@
 {
-    "version": "2.0.0",
-    "download_url": "https://github.com/vicvega83/GameLauncher-hosting/releases/download/v2.0.0/GameUpdate.zip",
-    "filesize": 29574910,
-    "changelog": "v2.0.0 — Self-contained game with Windows registry versioning."
+  "version": "1.0.2",
+  "download_url": "https://github.com/vicvega83/GameLauncher-hosting/releases/download/v1.0.2/GameUpdate.zip",
+  "filesize": 26027075,
+  "changelog": "v1.0.2 - Automated end-to-end test from the Game Launcher Publisher Unity package"
 }
