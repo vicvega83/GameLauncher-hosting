@@ -1,6 +1,6 @@
 {
-  "version": "2.1.9",
-  "download_url": "https://github.com/vicvega83/GameLauncher-hosting/releases/download/v2.1.9/GameUpdate.zip",
-  "filesize": 27203472,
-  "changelog": "Fixed missing pause menu script reference in v2.1.8 builds."
+  "version": "2.2.0",
+  "download_url": "https://github.com/vicvega83/GameLauncher-hosting/releases/download/v2.2.0/GameUpdate.zip",
+  "filesize": 27203597,
+  "changelog": "Fixed the pause menu losing its script reference; restore used the scene's original GUID."
 }
