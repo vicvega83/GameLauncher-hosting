@@ -1,6 +1,13 @@
 [
   {
     "image_url": "images/update1.jpg",
+    "title": "UnityMultiplayer E2E",
+    "description": "First release built and published from the UnityMultiplayer project through the Game Launcher Publisher package.",
+    "date": "2026-09-19",
+    "version": "2.1.0"
+  },
+  {
+    "image_url": "images/update1.jpg",
     "title": "Unity Package Pipeline",
     "description": "Published automatically by com.gamelauncher.publisher during the end-to-end test.",
     "date": "2026-09-19",
