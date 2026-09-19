@@ -1,6 +1,6 @@
 {
-  "version": "2.1.1",
-  "download_url": "https://github.com/vicvega83/GameLauncher-hosting/releases/download/v2.1.1/GameUpdate.zip",
+  "version": "2.1.2",
+  "download_url": "https://github.com/vicvega83/GameLauncher-hosting/releases/download/v2.1.2/GameUpdate.zip",
   "filesize": 27106280,
-  "changelog": "Visible demo content: ground, props, in-game version sign. Fixes black-screen first launch."
+  "changelog": "Prerelease channel test of the update pipeline (v2.1.2-pre)."
 }
