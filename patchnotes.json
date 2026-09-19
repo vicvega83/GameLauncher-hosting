@@ -1,6 +1,13 @@
 [
   {
     "image_url": "images/update1.jpg",
+    "title": "v2.1.2 Prerelease",
+    "description": "Exercises the prerelease flag end to end: release, Pages metadata and launcher Update flow.",
+    "date": "2026-09-19",
+    "version": "2.1.2"
+  },
+  {
+    "image_url": "images/update1.jpg",
     "title": "Demo Content Update",
     "description": "The game scene now shows ground, spinning props and an in-game version sign instead of a black screen.",
     "date": "2026-09-19",
