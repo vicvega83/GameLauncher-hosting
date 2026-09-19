@@ -1,6 +1,6 @@
 {
-  "version": "2.1.7",
-  "download_url": "https://github.com/vicvega83/GameLauncher-hosting/releases/download/v2.1.7/GameUpdate.zip",
-  "filesize": 27203011,
-  "changelog": "Fixed blank menu labels: UI text now uses an OS font (builtin font resources fail in player builds)."
+  "version": "2.1.8",
+  "download_url": "https://github.com/vicvega83/GameLauncher-hosting/releases/download/v2.1.8/GameUpdate.zip",
+  "filesize": 27203471,
+  "changelog": "Pause menu buttons no longer overflow the panel; canvas scales with window size."
 }
