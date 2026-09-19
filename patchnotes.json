@@ -1,6 +1,13 @@
 [
   {
     "image_url": "images/patch1.png",
+    "title": "v2.2.0 - Pause menu truly fixed",
+    "description": "v2.1.8/2.1.9 shipped a dead pause menu (script GUID mismatch). The scene's original GUID is restored, so ESC works again.",
+    "date": "2026-09-19",
+    "version": "2.2.0"
+  },
+  {
+    "image_url": "images/patch1.png",
     "title": "v2.1.9 - Pause menu fix",
     "description": "The pause menu script reference went missing in v2.1.8 builds. Rebuilt with a clean asset database; ESC pause menu works again.",
     "date": "2026-09-19",
