@@ -1,6 +1,6 @@
 {
-  "version": "2.1.0",
-  "download_url": "https://github.com/vicvega83/GameLauncher-hosting/releases/download/v2.1.0/GameUpdate.zip",
-  "filesize": 27176887,
-  "changelog": "End-to-end publish from UnityMultiplayer via the com.gamelauncher.publisher v0.2.0 pipeline."
+  "version": "2.1.1",
+  "download_url": "https://github.com/vicvega83/GameLauncher-hosting/releases/download/v2.1.1/GameUpdate.zip",
+  "filesize": 27106280,
+  "changelog": "Visible demo content: ground, props, in-game version sign. Fixes black-screen first launch."
 }
