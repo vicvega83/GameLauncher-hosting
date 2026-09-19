@@ -1,6 +1,6 @@
 {
-  "version": "2.1.5",
-  "download_url": "https://github.com/vicvega83/GameLauncher-hosting/releases/download/v2.1.5/GameUpdate.zip",
-  "filesize": 27200283,
-  "changelog": "Root-cause fix for magenta shaders: materials now reference the built-in Standard shader correctly."
+  "version": "2.1.6",
+  "download_url": "https://github.com/vicvega83/GameLauncher-hosting/releases/download/v2.1.6/GameUpdate.zip",
+  "filesize": 27202972,
+  "changelog": "Added Vik Starter pause menu: ESC toggles a configurable RESUME/QUIT overlay in game."
 }
