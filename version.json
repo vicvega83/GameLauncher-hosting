@@ -1,6 +1,6 @@
 {
-  "version": "2.1.8",
-  "download_url": "https://github.com/vicvega83/GameLauncher-hosting/releases/download/v2.1.8/GameUpdate.zip",
-  "filesize": 27203471,
-  "changelog": "Pause menu buttons no longer overflow the panel; canvas scales with window size."
+  "version": "2.1.9",
+  "download_url": "https://github.com/vicvega83/GameLauncher-hosting/releases/download/v2.1.9/GameUpdate.zip",
+  "filesize": 27203472,
+  "changelog": "Fixed missing pause menu script reference in v2.1.8 builds."
 }
