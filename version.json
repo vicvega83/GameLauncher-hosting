@@ -1,6 +1,6 @@
 {
   "version": "1.0.2",
   "download_url": "https://github.com/vicvega83/GameLauncher-hosting/releases/download/v1.0.2/GameUpdate.zip",
-  "filesize": 26027075,
-  "changelog": "v1.0.2 - Automated end-to-end test from the Game Launcher Publisher Unity package"
+  "filesize": 26023641,
+  "changelog": "v1.0.2 - Fixed payload: exe and _Data folder renamed for the launcher"
 }
