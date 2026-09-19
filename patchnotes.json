@@ -1,5 +1,12 @@
 [
   {
+    "image_url": "images/patch1.png",
+    "title": "v2.1.8 - Pause menu polish",
+    "description": "Menu buttons always fit inside the panel. The pause UI now scales with the window: readable when small, proportionate on ultrawide.",
+    "date": "2026-09-19",
+    "version": "2.1.8"
+  },
+  {
     "image_url": "images/update1.jpg",
     "title": "UI Text Fix",
     "description": "Pause menu buttons and version sign now render their text using an OS-provided font.",
