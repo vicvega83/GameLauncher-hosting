@@ -1,6 +1,13 @@
 [
   {
     "image_url": "images/update1.jpg",
+    "title": "Magenta Shaders Fixed",
+    "description": "All materials resolve to the built-in Standard shader; ground and props render with prototype textures.",
+    "date": "2026-09-19",
+    "version": "2.1.5"
+  },
+  {
+    "image_url": "images/update1.jpg",
     "title": "Shader Fix",
     "description": "Build pipeline no longer strips shader compilation; all materials render correctly.",
     "date": "2026-09-19",
