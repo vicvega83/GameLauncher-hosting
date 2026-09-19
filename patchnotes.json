@@ -1,6 +1,13 @@
 [
   {
     "image_url": "images/update1.jpg",
+    "title": "Pause Menu",
+    "description": "Press ESC in game for a pause menu with RESUME and QUIT. Menu items configurable on the component.",
+    "date": "2026-09-19",
+    "version": "2.1.6"
+  },
+  {
+    "image_url": "images/update1.jpg",
     "title": "Magenta Shaders Fixed",
     "description": "All materials resolve to the built-in Standard shader; ground and props render with prototype textures.",
     "date": "2026-09-19",
