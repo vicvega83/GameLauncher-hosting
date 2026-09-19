@@ -1,6 +1,6 @@
 {
-  "version": "2.1.4",
-  "download_url": "https://github.com/vicvega83/GameLauncher-hosting/releases/download/v2.1.4/GameUpdate.zip",
-  "filesize": 27170927,
-  "changelog": "Rebuilt with shader compilation enabled (no -nographics). Fixes magenta shaders."
+  "version": "2.1.5",
+  "download_url": "https://github.com/vicvega83/GameLauncher-hosting/releases/download/v2.1.5/GameUpdate.zip",
+  "filesize": 27200283,
+  "changelog": "Root-cause fix for magenta shaders: materials now reference the built-in Standard shader correctly."
 }
