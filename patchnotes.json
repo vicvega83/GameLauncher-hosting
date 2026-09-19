@@ -1,23 +1,30 @@
 [
-    {
-        "version": "2.0.0",
-        "title": "Registry-Aware Versioning",
-        "description": "Game now writes its version to Windows registry on startup. The launcher reads the registry key for instant version detection without parsing executables. Improved update pipeline reliability.",
-        "date": "2026-08-28",
-        "image_url": "https://vicvega83.github.io/GameLauncher-hosting/images/update1.jpg"
-    },
-    {
-        "version": "1.5.0",
-        "title": "New Survival Mode",
-        "description": "Added an endless survival mode with procedurally generated waves. Leaderboards integrated with the online scoring system.",
-        "date": "2026-08-15",
-        "image_url": "https://vicvega83.github.io/GameLauncher-hosting/images/update2.jpg"
-    },
-    {
-        "version": "1.0.0",
-        "title": "Initial Release",
-        "description": "The game launches with campaign mode, 5 levels, and online multiplayer support. Enjoy the journey!",
-        "date": "2026-08-01",
-        "image_url": "https://vicvega83.github.io/GameLauncher-hosting/images/update3.jpg"
-    }
+  {
+    "image_url": "images/update1.jpg",
+    "title": "Unity Package Pipeline",
+    "description": "Published automatically by com.gamelauncher.publisher during the end-to-end test.",
+    "date": "2026-09-19",
+    "version": "1.0.2"
+  },
+  {
+    "version": "2.0.0",
+    "title": "Registry-Aware Versioning",
+    "description": "Game now writes its version to Windows registry on startup. The launcher reads the registry key for instant version detection without parsing executables. Improved update pipeline reliability.",
+    "date": "2026-08-28",
+    "image_url": "https://vicvega83.github.io/GameLauncher-hosting/images/update1.jpg"
+  },
+  {
+    "version": "1.5.0",
+    "title": "New Survival Mode",
+    "description": "Added an endless survival mode with procedurally generated waves. Leaderboards integrated with the online scoring system.",
+    "date": "2026-08-15",
+    "image_url": "https://vicvega83.github.io/GameLauncher-hosting/images/update2.jpg"
+  },
+  {
+    "version": "1.0.0",
+    "title": "Initial Release",
+    "description": "The game launches with campaign mode, 5 levels, and online multiplayer support. Enjoy the journey!",
+    "date": "2026-08-01",
+    "image_url": "https://vicvega83.github.io/GameLauncher-hosting/images/update3.jpg"
+  }
 ]
